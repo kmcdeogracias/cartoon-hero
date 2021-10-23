@@ -1,29 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 body {
-  background-color: #FFFFE0;
+  margin: 0 auto;
+  background-color: #e2f5ff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#background-image {
+  background-image: url("../images/dog-paws.png");
+  width: 100%;
+  top: 0;
+  left: 0;
+  height:100%;
+  opacity: 0.1;
+  position: fixed;
+  background-repeat: repeat;
+  background-size: 50% auto;
+  padding: 0;
+  margin: 0;
+  z-index:0;
 }
 
 h1 {
-  font-size: 30px;
-  color: #CD5C5C;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  color: #fe62a9;
+  margin: 40px 0 0;
 }
 
-h2 {
+header {
+  text-align: center;
+}
+
+header img {
+  height: 50%;
+}
+
+header h1 {
+  margin: 0px;
+}
+
+.upper-content {
+  background-color: #fff;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 50px;
+  border-radius: 50px;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+main p {
+  padding: 10px;
+  line-height: 30px;
+  text-align: center;
+}
+
+main ul {
+  text-align: center;
+  columns: 3;
+  padding: 0;
+  margin-top: 50px;
+}
+
+main li {
+  list-style-type: none;
+  height: 300px;
+  color: #6a97ff;
+}
+
+main a {
+  text-decoration: none;
+  color: #fe62a9;
+}
+
+main img {
+  border: 5px #94d9ff solid;
+  border-radius: 175px;
+  height: 200px;
+  width: 200px;
+}
+
+ul p {
+  padding: 0px;
   font-size: 20px;
-  color: #C71585;
+  font-family: 'Rubik', sans-serif;
 }
 
-.big {
-  font-size: 60px;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-.big.uppercase {
-  color: #FF8C00;
-}
-
-h1 span {
-  color: #FFD700;
+footer {
+  font-family: 'Rubik', sans-serif;
+  background-color: #e86299;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
 }
