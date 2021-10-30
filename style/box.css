@@ -1,0 +1,67 @@
+body {
+  margin: 0 auto;
+  font-family: Helvetica, Arial;
+}
+
+div {
+  background-color: red;
+  width: 1400px;
+  padding: 20px 10px;
+}
+
+.box-2 {
+  background-color: black;
+  width: auto;
+}
+
+.box-3 {
+  background-color: green;
+  width: auto;
+}
+
+h1 {
+  color: white;
+}
+
+.display {
+  background-color: blue;
+}
+
+a {
+  color: white;
+  width: 300 px;
+  padding: 10px;
+  margin: 0px;
+  box-sizing: initial;
+  margin: 0 20 0 0;
+}
+
+input {
+  margin: 50px;
+}
+
+.inline-block {
+  display: inline-block;
+  width: 200px;
+  border: 5px solid white;
+}
+
+.float-topic {
+  background-color: #cca6ff;
+}
+
+.blue {
+  width: 300px;
+  float: left;
+  margin-left: 20px;
+}
+
+.ginger {
+  width: 300px;
+  float: right;
+  margin-right: 20px;
+}
+
+p {
+  clear: both;
+}
